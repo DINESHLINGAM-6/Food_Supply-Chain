@@ -9,7 +9,7 @@
 
 
 
-
+<div align="left">
 A modern, full-stack food supply chain tracking platform leveraging Stacks blockchain for transparent, decentralized food provenance from farm to table.
 
 
