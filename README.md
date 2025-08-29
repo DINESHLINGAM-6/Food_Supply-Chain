@@ -2,16 +2,43 @@
 
 <div align="center">
     
-<div style="display: flex; overflow-x: auto; gap: 10px;">
-  <img src="https://github.com/user-attachments/assets/aa699d87-8279-4114-880c-e742c3b0779a" width="350"/>
-  <img src="https://github.com/user-attachments/assets/9ab8bac7-19f1-4c65-90c1-f6ac2944c331" width="350"/>
-  <img src="https://github.com/user-attachments/assets/396af581-c8f3-457e-99a5-58a9e1015a2c" width="350"/>
-  <img src="https://github.com/user-attachments/assets/f6222921-c2d1-4886-bd1a-f782b168d231" width="350"/>
-  <img src="https://github.com/user-attachments/assets/4ad63176-e4e6-45a7-93a5-d7b986f602fa" width="350"/>
-  <img src="https://github.com/user-attachments/assets/6be9254c-b354-47b7-bfc6-16d202907cd0" width="350"/>
-  <img src="https://github.com/user-attachments/assets/28dc18e7-3104-4d5a-8b6c-2b1120c0bb6c" width="350"/>
-  <img src="https://github.com/user-attachments/assets/0495a2dd-af22-46ff-be2e-95b8059706ba" width="350"/>
+<!-- Add Swiper CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+<!-- Slider container -->
+<div class="swiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><img src="https://github.com/user-attachments/assets/aa699d87-8279-4114-880c-e742c3b0779a" width="600"/></div>
+    <div class="swiper-slide"><img src="https://github.com/user-attachments/assets/9ab8bac7-19f1-4c65-90c1-f6ac2944c331" width="600"/></div>
+    <div class="swiper-slide"><img src="https://github.com/user-attachments/assets/396af581-c8f3-457e-99a5-58a9e1015a2c" width="600"/></div>
+    <div class="swiper-slide"><img src="https://github.com/user-attachments/assets/f6222921-c2d1-4886-bd1a-f782b168d231" width="600"/></div>
+    <div class="swiper-slide"><img src="https://github.com/user-attachments/assets/4ad63176-e4e6-45a7-93a5-d7b986f602fa" width="600"/></div>
+    <div class="swiper-slide"><img src="https://github.com/user-attachments/assets/6be9254c-b354-47b7-bfc6-16d202907cd0" width="600"/></div>
+    <div class="swiper-slide"><img src="https://github.com/user-attachments/assets/28dc18e7-3104-4d5a-8b6c-2b1120c0bb6c" width="600"/></div>
+    <div class="swiper-slide"><img src="https://github.com/user-attachments/assets/0495a2dd-af22-46ff-be2e-95b8059706ba" width="600"/></div>
+  </div>
+
+  <!-- Navigation buttons -->
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-pagination"></div>
 </div>
+
+<!-- Add Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+  const swiper = new Swiper('.swiper', {
+    loop: true,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+  });
+</script>
 
 
 
