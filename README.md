@@ -1,10 +1,20 @@
-# Food Supply Chain - Blockchain-Powered Traceability Platform
+# Food Supply Chain - Blockchain
 
-![Food Supply Chain Banner](https://via.placeholder.com/800x200/2D50FC/FFFFFF?text=Food+Supply+Chain+-+Farm+to+Table+Transparency)
+<img width="600" height="400" alt="2" src="https://github.com/user-attachments/assets/aa699d87-8279-4114-880c-e742c3b0779a" />
+<img width="600" height="400" alt="3" src="https://github.com/user-attachments/assets/9ab8bac7-19f1-4c65-90c1-f6ac2944c331" />
+<img width="600" height="400" alt="4" src="https://github.com/user-attachments/assets/396af581-c8f3-457e-99a5-58a9e1015a2c" />
+<img width="600" height="400" alt="5" src="https://github.com/user-attachments/assets/f6222921-c2d1-4886-bd1a-f782b168d231" />
+<img width="600" height="400" alt="6" src="https://github.com/user-attachments/assets/4ad63176-e4e6-45a7-93a5-d7b986f602fa" />
+<img width="600" height="400" alt="7" src="https://github.com/user-attachments/assets/6be9254c-b354-47b7-bfc6-16d202907cd0" />
+<img width="600" height="400" alt="8" src="https://github.com/user-attachments/assets/28dc18e7-3104-4d5a-8b6c-2b1120c0bb6c" />
+<img width="600" height="400" alt="9" src="https://github.com/user-attachments/assets/0495a2dd-af22-46ff-be2e-95b8059706ba" />
+
+
+
 
 A modern, full-stack food supply chain tracking platform leveraging Stacks blockchain for transparent, decentralized food provenance from farm to table.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 [![TypeScript](https://img.shields.io/badge/TypeScript-4.9%2B-blue)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-18%2B-61dafb)](https://reactjs.org/)
 [![Stacks](https://img.shields.io/badge/Stacks-2.0-5546ff)](https://stacks.co/)
@@ -279,9 +289,6 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 4. Push to the branch: `git push origin feature/amazing-feature`
 5. Open a pull request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
